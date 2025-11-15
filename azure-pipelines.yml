@@ -8,9 +8,7 @@ trigger:
 
 pool:
   name: Default
-  demands:
-  - agent.name -equals kala
-
+ 
 
 steps:
 - task: Maven@3
